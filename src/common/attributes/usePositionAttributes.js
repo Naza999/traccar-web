@@ -617,7 +617,6 @@ export default (t) => useMemo(() => ({
   io72: {
     name: t('ctDallasTemperature1'),
     type: 'number',
-  },pe: 'number',
   },
   io201: {
     name: t('ctLLS1FuelLevel'),
