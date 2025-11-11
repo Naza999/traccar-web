@@ -522,91 +522,91 @@ export default (t) => useMemo(() => ({
     name: t('ctDriver2CumulativeBreakTime'),
     type: 'number',
   },
-  io60 {
+  io60: {
     name: t('ctDriver1SelectedActivityDuration'),
     type: 'number',
   },
-  io61 {
+  io61: {
     name: t('ctDriver1SelectedActivityDuration'),
     type: 'number',
   },
-  io69 {
+  io69: {
     name: t('ctDriver1CumulativeDrivingTime'),
     type: 'number',
   },
-  io10507 {
+  io10507: {
     name: t('ctDriver1VurrentDailyDrivingTime'),
     type: 'number',
   },
-  io10508 {
+  io10508: {
     name: t('ctDriver1CurrentWeeklyDrivingTime'),
     type: 'number',
   },
-  io10509 {
+  io10509: {
     name: t('ctDriver1TimeLeftUntilNewDailyRestPeriod'),
     type: 'number',
   },
-  io10522 {
+  io10522: {
     name: t('ctDriver1TimeLeftUntilNewWeeklyRestPeriod'),
     type: 'number',
   },
-  io10524 {
+  io10524: {
     name: t('ctDriver1MinimumDailyRest'),
     type: 'number',
   },
-  io10526 {
+  io10526: {
     name: t('ctDriver1MinimumWeeklyRest'),
     type: 'number',
   },
-  io10528 {
+  io10528: {
     name: t('ctDriver1DurationOfNextBreakRest'),
     type: 'number',
   },
-  io10530 {
+  io10530: {
     name: t('ctDriver1RemainingTimeUntilNextBreakOrRest'),
     type: 'number',
   },
-  io10532 {
+  io10532: {
     name: t('ctDriver1RemainingCurrentDrivingTime'),
     type: 'number',
   },
-  io10533 {
+  io10533: {
     name: t('ctDriver1RemainingDrivingTimeOnCurrentShift'),
     type: 'number',
   },
-  io10534 {
+  io10534: {
     name: t('ctDriver1RemainingDrivingTimeOfCurrentWeek'),
     type: 'number',
   },
-  io10535 {
+  io10535: {
     name: t('ctDriver1OpenCompensationInTheLastWeek'),
     type: 'number',
   },
-  io10536 {
+  io10536: {
     name: t('ctDriver1OpenCompensationInWeekBeforeLast'),
     type: 'number',
   },
-  io10537 {
+  io10537: {
     name: t('ctDriver1OpenCompensationIn2ndWeekBeforeLast'),
     type: 'number',
   },
-  io10538 {
+  io10538: {
     name: t('ctDriver1AdditionalInformation'),
     type: 'number',
   },
-  io10539 {
+  io10539: {
     name: t('ctDriver1RemainingTimeOfCurrentBreakRest'),
     type: 'number',
   },
-  io10540 {
+  io10540: {
     name: t('ctDriver1TimeLeftUntilNextDrivingPeriod'),
     type: 'number',
   },
-  io10541 {
+  io10541: {
     name: t('ctDriver1DurationOfNextDrivingPeriod'),
     type: 'number',
   },
-  io68 {
+  io68: {
     name: t('ctBatteryCurrent'),
     type: 'number',
   },
