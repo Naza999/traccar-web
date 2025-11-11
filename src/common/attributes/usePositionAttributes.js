@@ -414,7 +414,7 @@ export default (t) => useMemo(() => ({
     name: t('ctDriver2CardPresence'),
     type: 'number',
   },
-  io188: {
+  io235: {
     name: t('ctVINPart3'),
     type: 'number',
   },
@@ -608,6 +608,79 @@ export default (t) => useMemo(() => ({
   },
   io68: {
     name: t('ctBatteryCurrent'),
+    type: 'number',
+  },
+  io24: {
+    name: t('ctSpeed'),
+    type: 'number',
+  },
+  io72: {
+    name: t('ctDallasTemperature1'),
+    type: 'number',
+  },pe: 'number',
+  },
+  io201: {
+    name: t('ctLLS1FuelLevel'),
+    type: 'number',
+  },
+  io203: {
+    name: t('ctLLS2FuelLevel'),
+    type: 'number',
+  },
+  io206: {
+    name: t('ctGSMAreaCode'),
+    type: 'number',
+  },
+  io128: {
+    name: t('ctAmbientAirTemperature'),
+    type: 'number',
+  },
+  io194: {
+    name: t('ctTimestamp'),
+    type: 'number',
+  },
+  io192: {
+    name: t('ctOdometer'),
+    type: 'number',
+  },
+  io193: {
+    name: t('ctTripDistance'),
+    type: 'number',
+  },
+  io10503: {
+    name: t('ctTripDistance'),
+    type: 'number',
+  },
+  io10504: {
+    name: t('ctDriver1EndOfLastDailyRestReport'),
+    type: 'number',
+  },
+  io10505: {
+    name: t('ctDriver1EndOfLastWeeklyRestPeriod'),
+    type: 'number',
+  },
+  io10506: {
+    name: t('ctDriver1EndOfSecondLastWeeklyRestPeriod'),
+    type: 'number',
+  },
+  io205: {
+    name: t('ctGSMCellID'),
+    type: 'number',
+  },
+  io216: {
+    name: t('ctTotalOdometer'),
+    type: 'number',
+  },
+  io80: {
+    name: t('ctWheelBasedSpeed'),
+    type: 'number',
+  },
+  io84: {
+    name: t('ctAccelerationPedalPosition'),
+    type: 'number',
+  },
+  io86: {
+    name: t('ctEngineTotalFuelUsed'),
     type: 'number',
   },
 }), [t]);
