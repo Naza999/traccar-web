@@ -389,4 +389,225 @@ export default (t) => useMemo(() => ({
     name: t('positionAudio'),
     type: 'string',
   },
+  
+  io183: {
+    name: t('ctDriveRecognize'),
+    type: 'number',
+  },  
+  io186: {
+    name: t('ctTachographOverSpeed'),
+    type: 'number',
+  },  
+  io184: {
+    name: t('ctDriver1WorkingState'),
+    type: 'number',
+  },
+  io185: {
+    name: t('ctDriver2WorkingState'),
+    type: 'number',
+  },
+  io187: {
+    name: t('ctDriver1CardPresence'),
+    type: 'number',
+  },
+  io188: {
+    name: t('ctDriver2CardPresence'),
+    type: 'number',
+  },
+  io188: {
+    name: t('ctVINPart3'),
+    type: 'number',
+  },
+  io189: {
+    name: t('ctDriver1TimeRelatedStates'),
+    type: 'number',
+  },
+  io190: {
+    name: t('ctDriver2TimeRelatedStates'),
+    type: 'number',
+  },
+  io222: {
+    name: t('ctCard1IssuingMemberState'),
+    type: 'number',
+  },
+  io10501: {
+    name: t('ctDriversHoursRulesPreWarningTimeDelay'),
+    type: 'number',
+  },
+  io10502: {
+    name: t('ctOutOfScopeCondition'),
+    type: 'number',
+  },
+  io10510: {
+    name: t('ctDriver1NumberOfTimes9hDailyDrivingTimeExceeds'),
+    type: 'number',
+  },
+  io10543: {
+    name: t('ctK-LinePrivacyMode'),
+    type: 'number',
+  },
+  io48: {
+    name: t('ctTachoDataSource'),
+    type: 'number',
+  },
+  io22: {
+    name: t('ctDataMode'),
+    type: 'number',
+  },
+  io71: {
+    name: t('ctGNSSStatus'),
+    type: 'number',
+  },
+  io200: {
+    name: t('ctSleepMode'),
+    type: 'number',
+  },  
+  io202: {
+    name: t('ctFuelTemp1'),
+    type: 'number',
+  },
+  io204: {
+    name: t('ctFuelTemp2'),
+    type: 'number',
+  },
+  io81: {
+    name: t('ctCruiseControlActive'),
+    type: 'number',
+  },
+  io85: {
+    name: t('ctEngineCurrentLoad'),
+    type: 'number',
+  },
+  io110: {
+    name: t('ctDiagnosticsSupported'),
+    type: 'number',
+  },
+  io123: {
+    name: t('ctTachographPerformance'),
+    type: 'number',
+  },
+  io127: {
+    name: t('ctEngineCoolantTemperature'),
+    type: 'number',
+  },
+  io137: {
+    name: t('ctPTODriveEngagement'),
+    type: 'number',
+  },
+  io229: {
+    name: t('ctAdBlueStatus'),
+    type: 'number',
+  },
+  io10455: {
+    name: t('ctAdBlueLevel'),
+    type: 'number',
+  },
+  io191: {
+    name: t('ctVehicleSpeed'),
+    type: 'number',
+  },
+  io56: {
+    name: t('ctDriver1ContinuousDrivingTime'),
+    type: 'number',
+  },
+  io57: {
+    name: t('ctDriver2ContinuousDrivingTime'),
+    type: 'number',
+  },
+  io58: {
+    name: t('ctDriver1CumulativeBreakTime'),
+    type: 'number',
+  },
+  io59: {
+    name: t('ctDriver2CumulativeBreakTime'),
+    type: 'number',
+  },
+  io60 {
+    name: t('ctDriver1SelectedActivityDuration'),
+    type: 'number',
+  },
+  io61 {
+    name: t('ctDriver1SelectedActivityDuration'),
+    type: 'number',
+  },
+  io69 {
+    name: t('ctDriver1CumulativeDrivingTime'),
+    type: 'number',
+  },
+  io10507 {
+    name: t('ctDriver1VurrentDailyDrivingTime'),
+    type: 'number',
+  },
+  io10508 {
+    name: t('ctDriver1CurrentWeeklyDrivingTime'),
+    type: 'number',
+  },
+  io10509 {
+    name: t('ctDriver1TimeLeftUntilNewDailyRestPeriod'),
+    type: 'number',
+  },
+  io10522 {
+    name: t('ctDriver1TimeLeftUntilNewWeeklyRestPeriod'),
+    type: 'number',
+  },
+  io10524 {
+    name: t('ctDriver1MinimumDailyRest'),
+    type: 'number',
+  },
+  io10526 {
+    name: t('ctDriver1MinimumWeeklyRest'),
+    type: 'number',
+  },
+  io10528 {
+    name: t('ctDriver1DurationOfNextBreakRest'),
+    type: 'number',
+  },
+  io10530 {
+    name: t('ctDriver1RemainingTimeUntilNextBreakOrRest'),
+    type: 'number',
+  },
+  io10532 {
+    name: t('ctDriver1RemainingCurrentDrivingTime'),
+    type: 'number',
+  },
+  io10533 {
+    name: t('ctDriver1RemainingDrivingTimeOnCurrentShift'),
+    type: 'number',
+  },
+  io10534 {
+    name: t('ctDriver1RemainingDrivingTimeOfCurrentWeek'),
+    type: 'number',
+  },
+  io10535 {
+    name: t('ctDriver1OpenCompensationInTheLastWeek'),
+    type: 'number',
+  },
+  io10536 {
+    name: t('ctDriver1OpenCompensationInWeekBeforeLast'),
+    type: 'number',
+  },
+  io10537 {
+    name: t('ctDriver1OpenCompensationIn2ndWeekBeforeLast'),
+    type: 'number',
+  },
+  io10538 {
+    name: t('ctDriver1AdditionalInformation'),
+    type: 'number',
+  },
+  io10539 {
+    name: t('ctDriver1RemainingTimeOfCurrentBreakRest'),
+    type: 'number',
+  },
+  io10540 {
+    name: t('ctDriver1TimeLeftUntilNextDrivingPeriod'),
+    type: 'number',
+  },
+  io10541 {
+    name: t('ctDriver1DurationOfNextDrivingPeriod'),
+    type: 'number',
+  },
+  io68 {
+    name: t('ctBatteryCurrent'),
+    type: 'number',
+  },
 }), [t]);
