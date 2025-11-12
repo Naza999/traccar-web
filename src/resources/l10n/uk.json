@@ -703,5 +703,22 @@
 	"ctTotalOdometer": "Загальний одометр",
 	"ctWheelBasedSpeed": "Швидкість на основі коліс",
 	"ctAccelerationPedalPosition": "Положення педалі акселератора",
-	"ctEngineTotalFuelUsed": "Загальний обсяг використаного палива двигуном"
+	"ctEngineTotalFuelUsed": "Загальний обсяг використаного палива двигуном",
+	"ctFuelLevel": "Рівень палива",
+	"ctEngineSpeed": "Швидкість двигуна",
+	"ctEngineTotalHoursOfOperation": "Загальна кількість годин роботи двигуна",
+	"ctServiceDistance": "Відстань обслуговування",
+	"ctFuelRate": "Витрата палива",
+	"ctHighResolutionEngineTotalFuelUsed": "Загальний обсяг використаного палива двигуна (висока роздільна здатность)",
+	"ctGrossCombinationVehicleWeight": "Повна маса транспортного засобу",
+	"ctVehicleIdentificationNumberPart2": "Ідентифікаційний номер транспортного засобу, частина 2",
+	"ctVehicleIdentificationNumberPart1": "Ідентифікаційний номер транспортного засобу, частина 1",
+	"ctVehicleRegistrationNumberPart2": "Реєстраційний номер транспортного засобу, частина 2",
+	"ctVehicleRegistrationNumberPart1": "Реєстраційний номер транспортного засобу, частина 1",
+	"ctDriver1IDLSB": "Ідентифікатор водія 1 LSB",
+	"ctDriver1IDMSB": "Ідентифікатор водія 1 MSB",
+	"ctDriver1Name": "Ім'я водія 1",
+	"ctDriver1SurName": "Прізвище водія 1",
+	"ctDriver2Name": "Ім'я водія 2",
+	"ctDriver2SurName": "Прізвище водія 2"
 }
