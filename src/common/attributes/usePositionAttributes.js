@@ -682,4 +682,72 @@ export default (t) => useMemo(() => ({
     name: t('ctEngineTotalFuelUsed'),
     type: 'number',
   },
+  io87: {
+    name: t('ctFuelLevel'),
+    type: 'number',
+  },
+  io88: {
+    name: t('ctEngineSpeed'),
+    type: 'number',
+  },
+  io104: {
+    name: t('ctEngineTotalHoursOfOperation'),
+    type: 'number',
+  },
+  io113: {
+    name: t('ctServiceDistance'),
+    type: 'number',
+  },
+  io135: {
+    name: t('ctFuelRate'),
+    type: 'number',
+  },
+  io138: {
+    name: t('ctHighResolutionEngineTotalFuelUsed'),
+    type: 'number',
+  },
+  io139: {
+    name: t('ctGrossCombinationVehicleWeight'),
+    type: 'number',
+  },
+  io234: {
+    name: t('ctVehicleIdentificationNumberPart2'),
+    type: 'number',
+  },
+  io233: {
+    name: t('ctVehicleIdentificationNumberPart1'),
+    type: 'number',
+  },
+  io232: {
+    name: t('ctVehicleRegistrationNumberPart2'),
+    type: 'number',
+  },
+  io231: {
+    name: t('ctVehicleRegistrationNumberPart1'),
+    type: 'number',
+  },
+  io196: {
+    name: t('ctDriver1IDLSB'),
+    type: 'number',
+  },
+  io195: {
+    name: t('ctDriver1IDMSB'),
+    type: 'number',
+  },
+  io10518: {
+    name: t('ctDriver1Name'),
+    type: 'number',
+  },
+  io10519: {
+    name: t('ctDriver1SurName'),
+    type: 'number',
+  },
+  io10520: {
+    name: t('ctDriver2Name'),
+    type: 'number',
+  },
+  io10521: {
+    name: t('ctDriver2SurName'),
+    type: 'number',
+  },
 }), [t]);
