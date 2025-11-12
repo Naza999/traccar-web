@@ -632,10 +632,6 @@
     "maintenanceStart": "Початок",
     "maintenancePeriod": "Період",
 	
-	"deviceId": "Ідентифікатор пристрою",
-	"network": "Мережа",
-	"priority": "Пріорітет",
-	
 	"ctDriveRecognize": "Розпізнавання водія",
 	"ctTachographOverSpeed": "Перевищення швидкості тахографа",
 	"ctDriver1WorkingState": "Робочий стан водія 1",
